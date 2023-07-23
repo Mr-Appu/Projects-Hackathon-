@@ -12,7 +12,6 @@ def predictRuns(testInput):
         venue_encoder=joblib.load(f)
     with open('team_encoder.joblib','rb') as f:
         team_encoder=joblib.load(f)
-    
 
     testc=pd.read_csv(testInput)
     
